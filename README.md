@@ -4,7 +4,7 @@
 <a href="https://fralfaro.github.io/DS-Cheat-Sheets/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-brightgreen"></a>
 
 
-<img src="docs/images/cs.png"  >
+<img src="docs/images/cs.png" width = 500 >
 
 
 This repository serves as a hub for various Cheat Sheets related to 

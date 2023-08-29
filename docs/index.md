@@ -1,6 +1,6 @@
 # Cheat Sheets for Data Science Learning
 
-<img src="images/cs.png"  >
+<img src="images/cs.png" width = 500 >
 
 
 This repository serves as a hub for various Cheat Sheets related to 

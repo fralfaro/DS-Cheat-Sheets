@@ -6,7 +6,7 @@ import requests
 
 # Initial page config
 st.set_page_config(
-    page_title='Streamlit cheat sheet',
+    page_title='NumPy Cheat Sheet',
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -37,7 +37,7 @@ def cs_sidebar():
 
     st.sidebar.header('NumPy Cheat Sheet')
     st.sidebar.markdown('''
-<small>The [NumPy](https://numpy.org/) library is the core library for scientific computing in
+<small>[NumPy](https://numpy.org/) is the core library for scientific computing in
 Python. It provides a high-performance multidimensional array
 object, and tools for working with these arrays.</small>
     ''', unsafe_allow_html=True)

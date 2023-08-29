@@ -1,0 +1,109 @@
+# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+# Project information
+site_name: DS-Cheat-Sheets
+site_url: https://github.com/fralfaro/DS-Cheat-Sheets
+site_author: Francisco Alfaro
+site_description:
+
+# Repository
+repo_name: fralfaro/DS-Cheat-Sheets
+repo_url: https://github.com/fralfaro/DS-Cheat-Sheets
+edit_uri: ''
+
+
+# Markdown extensions
+markdown_extensions:
+  - attr_list
+  - admonition
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tabbed
+
+# Extra javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Theme
+theme:
+  name: material
+  language: en
+  logo: images/python.png
+  favicon: images/python.png
+  features:
+    - navigation.instant
+    - navigation.top
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+  palette:
+    # Light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fralfaro
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/fralfaro
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/faam/
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/faamds
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@fralfaro
+    - icon: fontawesome/solid/globe
+      link: https://fralfaro.github.io/portfolio/
+
+# Plugins
+plugins:
+  - mkdocs-jupyter:
+      kernel_name: python3
+  - search
+
+# TOC
+nav:
+    - Home: index.md
+    - Examples:
+        - Jupyter Notebook:
+            - Python: examples/python/python.ipynb
+            - Numpy: examples/numpy/numpy.ipynb
+            - Pandas: examples/pandas/pandas.ipynb
+            - Matplotlib: examples/matplotlib/matplotlib.ipynb
+            - Scikit-Learn: examples/scikit-learn/sklearn.ipynb
+        - Streamlit:
+            - Python: examples/python/st_python.ipynb
+            - Numpy: examples/numpy/st_numpy.ipynb
+            - Pandas: examples/pandas/st_pandas.ipynb
+            - Matplotlib: examples/matplotlib/st_matplotlib.ipynb
+            - Scikit-Learn: examples/scikit-learn/st_sklearn.ipynb
+
+
+
+
+

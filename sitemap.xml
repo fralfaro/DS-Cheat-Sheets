@@ -56,6 +56,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/polars/app/</loc>
+         <lastmod>2023-08-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/polars/polars/</loc>
+         <lastmod>2023-08-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/polars/st_polars/</loc>
+         <lastmod>2023-08-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/python/app/</loc>
          <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>

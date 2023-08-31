@@ -85,6 +85,5 @@ require any setup or installation.
 * [Data Science Cheat Sheets - DataCamp](https://www.datacamp.com/cheat-sheet)
 * [Cheatsheets and Handouts - Matplotlib](https://matplotlib.org/cheatsheets/)
 * [Streamlit Cheat Sheet - Daniel Lewis](https://github.com/daniellewisDL/streamlit-cheat-sheet)
-
-
+* [Polars cheat sheet - Franz Diebold](https://github.com/FranzDiebold/polars-cheat-sheet)
 

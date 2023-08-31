@@ -2,87 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/__init__/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/matplotlib/app/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/matplotlib/matplotlib/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/matplotlib/st_matplotlib/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/numpy/app/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/numpy/numpy/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/numpy/st_numpy/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/pandas/app/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/pandas/pandas/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/pandas/st_pandas/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/python/app/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/python/python/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/python/st_python/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/scikit-learn/app/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/scikit-learn/sklearn/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/DS-Cheat-Sheets/examples/scikit-learn/st_sklearn/</loc>
-         <lastmod>2023-08-29</lastmod>
+         <lastmod>2023-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

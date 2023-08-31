@@ -96,13 +96,14 @@ nav:
             - Pandas: examples/pandas/pandas.ipynb
             - Matplotlib: examples/matplotlib/matplotlib.ipynb
             - Scikit-Learn: examples/scikit-learn/sklearn.ipynb
-            - Scikit-Learn: examples/vizzu/vizzu.ipynb
+            - Polars: examples/polars/polars.ipynb
         - Streamlit:
             - Python: examples/python/st_python.ipynb
             - Numpy: examples/numpy/st_numpy.ipynb
             - Pandas: examples/pandas/st_pandas.ipynb
             - Matplotlib: examples/matplotlib/st_matplotlib.ipynb
             - Scikit-Learn: examples/scikit-learn/st_sklearn.ipynb
+            - Polars: examples/polars/st_polars.ipynb
 
 
 

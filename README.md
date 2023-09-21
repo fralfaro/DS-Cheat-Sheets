@@ -26,6 +26,8 @@ a manner that aligns with their preferences and learning style.
 | scikit-learn | <a href="https://github.com/fralfaro/DS-Cheat-Sheets/blob/main/docs/files/scikit-learn_cs.pdf" target="_parent"><img src="https://img.shields.io/badge/Open in PDF-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white"/></a> | <a href="https://ds-cheat-sheets-sklearn.streamlit.app/" target="_parent"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/></a>    | <a href="https://colab.research.google.com/github/fralfaro/DS-Cheat-Sheets/blob/main/docs/examples/scikit-learn/sklearn.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>  |
 | polars       | <a href="https://github.com/fralfaro/DS-Cheat-Sheets/blob/main/docs/files/polars_cs.pdf" target="_parent"><img src="https://img.shields.io/badge/Open in PDF-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white"/></a>       | <a href="https://ds-cheat-sheets-polars.streamlit.app/" target="_parent"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/></a>     | <a href="https://colab.research.google.com/github/fralfaro/DS-Cheat-Sheets/blob/main/docs/examples/polars/polars.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>         |
 
+ #000000
+
 > **Note**: The PDF format cheat sheets included here are authored by other contributors and have been used as sources of inspiration for the content presented.
 
 ## More Information
@@ -87,4 +89,5 @@ require any setup or installation.
 * [Cheatsheets and Handouts - Matplotlib](https://matplotlib.org/cheatsheets/)
 * [Streamlit Cheat Sheet - Daniel Lewis](https://github.com/daniellewisDL/streamlit-cheat-sheet)
 * [Polars cheat sheet - Franz Diebold](https://github.com/FranzDiebold/polars-cheat-sheet)
+* [Posit Cheatsheets - Posit](https://rstudio.github.io/cheatsheets/)
 

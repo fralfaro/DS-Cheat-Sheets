@@ -26,6 +26,12 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.tabbed
+  - neoteroi.cards
+  - neoteroi.timeline
+  - neoteroi.projects
+
+extra_css:
+  - css/neoteroi-mkdocs.css
 
 # Extra javascript
 extra_javascript:
@@ -38,7 +44,7 @@ theme:
   name: material
   language: en
   logo: images/python.png
-  favicon: images/python.png
+  favicon: images/logo_fam.png
   features:
     - navigation.instant
     - navigation.top
@@ -89,21 +95,14 @@ plugins:
 # TOC
 nav:
     - Home: index.md
-    - Examples:
-        - Jupyter Notebook:
-            - Python: examples/python/python.ipynb
-            - Numpy: examples/numpy/numpy.ipynb
-            - Pandas: examples/pandas/pandas.ipynb
-            - Matplotlib: examples/matplotlib/matplotlib.ipynb
-            - Scikit-Learn: examples/scikit-learn/sklearn.ipynb
-            - Polars: examples/polars/polars.ipynb
-        - Streamlit:
-            - Python: examples/python/st_python.ipynb
-            - Numpy: examples/numpy/st_numpy.ipynb
-            - Pandas: examples/pandas/st_pandas.ipynb
-            - Matplotlib: examples/matplotlib/st_matplotlib.ipynb
-            - Scikit-Learn: examples/scikit-learn/st_sklearn.ipynb
-            - Polars: examples/polars/st_polars.ipynb
+    - Cheat Sheets:
+        - Python: examples/python/python.ipynb
+        - Numpy: examples/numpy/numpy.ipynb
+        - Pandas: examples/pandas/pandas.ipynb
+        - Matplotlib: examples/matplotlib/matplotlib.ipynb
+        - Scikit-Learn: examples/scikit-learn/sklearn.ipynb
+        - Polars: examples/polars/polars.ipynb
+
 
 
 

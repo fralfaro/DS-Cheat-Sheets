@@ -3,7 +3,11 @@
 This repository serves as a hub for various Cheat Sheets related to 
 the field of Data Science (with Python). What sets these Cheat Sheets apart is their 
 multidimensional approach to enhancing the learning experience. 
-Each Cheat Sheet is made available in three distinct formats: **PDF**, **Streamlit**, and **Google Colab**.
+Each Cheat Sheet is made available in three distinct formats: 
+
+* **PDF**: <img src="https://img.shields.io/badge/Open in PDF-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white"/> 
+* **Streamlit**: <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/>
+* **Google Colab**: <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 
 ## Content
 

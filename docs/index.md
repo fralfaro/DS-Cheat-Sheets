@@ -1,7 +1,7 @@
 # Cheat Sheets for Data Science Learning
 
 This repository serves as a hub for various Cheat Sheets related to 
-the field of Data Science (with Python). What sets these Cheat Sheets apart is their 
+the field of Data Science (with Python and R). What sets these Cheat Sheets apart is their 
 multidimensional approach to enhancing the learning experience. 
 Each Cheat Sheet is made available in three distinct formats: 
 
@@ -10,6 +10,8 @@ Each Cheat Sheet is made available in three distinct formats:
 * **Google Colab**: <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 
 ## Content
+
+### Python
 
 ::cards:: cols=3
 
@@ -55,6 +57,33 @@ Each Cheat Sheet is made available in three distinct formats:
   "
   image: https://raw.githubusercontent.com/fralfaro/DS-Cheat-Sheets/main/docs/examples/polars/polars.png
   url: ./examples/polars/polars/
+
+::/cards::
+
+### R
+
+::cards:: cols=3
+
+- title: Dplyr
+  content: "
+  dplyr is a data manipulation tool that offers a consistent set of actions for solving common data manipulation tasks.
+  "
+  image: https://rstudio.github.io/cheatsheets/html/images/logo-dplyr.png
+  url: ./examples/dplyr/dplyr/
+
+- title: Ggplot2
+  content: "
+  ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics.
+  "
+  image: https://rstudio.github.io/cheatsheets/html/images/logo-ggplot2.png
+  url: ./examples/ggplot2/ggplot2/
+
+- title: Forcats
+  content: "
+  forcats package is to provide a suite of tools that solve common problems with factors (in R).
+  "
+  image: https://rstudio.github.io/cheatsheets/html/images/logo-forcats.png
+  url: ./examples/forcats/forcats/
 
 ::/cards::
 

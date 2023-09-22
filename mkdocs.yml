@@ -1,7 +1,7 @@
 # Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
 
 # Project information
-site_name: DS-Cheat-Sheets
+site_name: DS CheatSheets
 site_url: https://github.com/fralfaro/DS-Cheat-Sheets
 site_author: Francisco Alfaro
 site_description:
@@ -43,7 +43,7 @@ extra_javascript:
 theme:
   name: material
   language: en
-  logo: images/python.png
+  logo: images/rpython.svg
   favicon: images/logo_fam.png
   features:
     - navigation.instant
@@ -96,12 +96,17 @@ plugins:
 nav:
     - Home: index.md
     - Cheat Sheets:
-        - Python: examples/python/python.ipynb
-        - Numpy: examples/numpy/numpy.ipynb
-        - Pandas: examples/pandas/pandas.ipynb
-        - Matplotlib: examples/matplotlib/matplotlib.ipynb
-        - Scikit-Learn: examples/scikit-learn/sklearn.ipynb
-        - Polars: examples/polars/polars.ipynb
+        - Python:
+            - Python: examples/python/python.ipynb
+            - Numpy: examples/numpy/numpy.ipynb
+            - Pandas: examples/pandas/pandas.ipynb
+            - Matplotlib: examples/matplotlib/matplotlib.ipynb
+            - Scikit-Learn: examples/scikit-learn/sklearn.ipynb
+            - Polars: examples/polars/polars.ipynb
+        - R:
+            - Dplyr: examples/dplyr/dplyr.ipynb
+            - Ggplot2: examples/ggplot2/ggplot2.ipynb
+            - Forcats: examples/forcats/forcats.ipynb
 
 
 

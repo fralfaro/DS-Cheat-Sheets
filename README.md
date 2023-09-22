@@ -1,7 +1,7 @@
 # Cheat Sheets for Data Science Learning
 
 ![example workflow](https://github.com/fralfaro/DS-Cheat-Sheets/actions/workflows/documentation.yml/badge.svg)
-<a href="https://fralfaro.github.io/DS-Cheat-Sheets/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-brightgreen"></a>
+[![documentation](https://img.shields.io/badge/📖-docs-brightgreen)](https://fralfaro.github.io/DS-Cheat-Sheets/)
 
 
 <img src="docs/images/cs.png" width = 500 >

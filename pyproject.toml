@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-mkdocs-material = "^8.2.15"
-mkdocs-jupyter = "^0.21.0"
-neoteroi-mkdocs = "^1.0.4"
+python = "^3.10"
+mkdocs-material = "*"
+mkdocs-jupyter = "*"
+neoteroi-mkdocs = "*"

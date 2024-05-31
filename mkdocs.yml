@@ -44,13 +44,19 @@ theme:
   name: material
   language: en
   logo: images/rpython.svg
-  favicon: images/logo_fam.png
+  favicon: images/icon.png
   features:
-    - navigation.instant
-    - navigation.top
-    - content.code.annotate
-    - search.suggest
-    - search.highlight
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - navigation.indexes
+  - content.tooltips
+  - navigation.path
+  - content.code.annotate
+  - content.code.copy
+  - content.code.select
+  - navigation.tabs
+  - navigation.footer
   palette:
     # Light mode
     - media: '(prefers-color-scheme: light)'
@@ -94,20 +100,18 @@ plugins:
 
 # TOC
 nav:
-    - Home: index.md
-    - Cheat Sheets:
-        - Python:
-            - Python: examples/python/python.ipynb
-            - Numpy: examples/numpy/numpy.ipynb
-            - Pandas: examples/pandas/pandas.ipynb
-            - Matplotlib: examples/matplotlib/matplotlib.ipynb
-            - Scikit-Learn: examples/scikit-learn/sklearn.ipynb
-            - Polars: examples/polars/polars.ipynb
-        - R:
-            - Dplyr: examples/dplyr/dplyr.ipynb
-            - Ggplot2: examples/ggplot2/ggplot2.ipynb
-            - Forcats: examples/forcats/forcats.ipynb
-
+    - 🏠 Home: index.md
+    - 📗 Python:
+        - Python: examples/python/python.ipynb
+        - Numpy: examples/numpy/numpy.ipynb
+        - Pandas: examples/pandas/pandas.ipynb
+        - Matplotlib: examples/matplotlib/matplotlib.ipynb
+        - Scikit-Learn: examples/scikit-learn/sklearn.ipynb
+        - Polars: examples/polars/polars.ipynb
+    - 📘 R:
+        - Dplyr: examples/dplyr/dplyr.ipynb
+        - Ggplot2: examples/ggplot2/ggplot2.ipynb
+        - Forcats: examples/forcats/forcats.ipyn
 
 
 

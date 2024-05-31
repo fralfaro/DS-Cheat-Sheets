@@ -1,19 +1,25 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Cheat Sheets for Data Science Learning
 
-This repository serves as a hub for various Cheat Sheets related to 
-the field of Data Science (with Python and R). What sets these Cheat Sheets apart is their 
-multidimensional approach to enhancing the learning experience. 
-Each Cheat Sheet is made available in three distinct formats: 
+This repository is a comprehensive resource for Data Science Cheat Sheets, 
+specifically designed for Python and R. 
+
+These Cheat Sheets offer a multidimensional approach to learning, available in three distinct formats:
 
 * **PDF**: <img src="https://img.shields.io/badge/Open in PDF-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white"/> 
 * **Streamlit**: <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/>
 * **Google Colab**: <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 
-## Content
+## Sections
 
-### Python
+### 📗 Python
 
-::cards:: cols=3
+::cards:: cols=4
 
 - title: Python
   content: "
@@ -36,6 +42,11 @@ Each Cheat Sheet is made available in three distinct formats:
   "
   image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png
   url: ./examples/pandas/pandas/
+
+::/cards::
+
+
+::cards:: cols=4
 
 - title: Matplotlib
   content: "
@@ -60,9 +71,9 @@ Each Cheat Sheet is made available in three distinct formats:
 
 ::/cards::
 
-### R
+### 📘 R
 
-::cards:: cols=3
+::cards:: cols=4
 
 - title: Dplyr
   content: "
@@ -87,9 +98,9 @@ Each Cheat Sheet is made available in three distinct formats:
 
 ::/cards::
 
-> **Note**: The PDF format cheat sheets included here are authored by other contributors and have been used as sources of inspiration for the content presented.
+> 🔑 **Note**: The PDF cheat sheets in this repository are created by various contributors and have inspired the content presented here.
 
-## References
+## 📖 References
 
 * [Data Science Cheat Sheets - DataCamp](https://www.datacamp.com/cheat-sheet)
 * [Cheatsheets and Handouts - Matplotlib](https://matplotlib.org/cheatsheets/)

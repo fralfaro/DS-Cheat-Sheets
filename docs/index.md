@@ -11,9 +11,9 @@ specifically designed for Python and R.
 
 These Cheat Sheets offer a multidimensional approach to learning, available in three distinct formats:
 
-* **PDF**: <img src="https://img.shields.io/badge/Open in PDF-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white"/> 
-* **Streamlit**: <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/>
-* **Google Colab**: <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+| **PDF** | **Streamlit** | **Google Colab** |
+|---------|---------------|------------------|
+| <img src="https://img.shields.io/badge/Open in PDF-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white"/> | <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/> | <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> |
 
 ## Sections
 

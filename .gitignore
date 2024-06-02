@@ -6,7 +6,5 @@
 *__pycache__/
 .DS_Store
 .ipynb_checkpoints/
-Studies/
 /.idea/
-vizzu/
-docs/examples/probability-distribution
+_more_

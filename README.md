@@ -15,9 +15,9 @@ Each Cheat Sheet is made available in three distinct formats: **PDF**, **Streaml
 This threefold approach to guarantee that learners can interact with the content in 
 a manner that aligns with their preferences and learning style.
 
-## Content
+## Sections
 
-### Python
+### 📗 Python
 
 | Topic        | PDF                                                                                                                                                                                                                                  | Streamlit                                                                                                                                                        | Google Colab                                                                                                                                                                                                                                   |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ a manner that aligns with their preferences and learning style.
 | scikit-learn | <a href="https://github.com/fralfaro/DS-Cheat-Sheets/blob/main/docs/files/scikit-learn_cs.pdf" target="_parent"><img src="https://img.shields.io/badge/Open in PDF-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white"/></a> | <a href="https://ds-cheat-sheets-sklearn.streamlit.app/" target="_parent"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/></a>    | <a href="https://colab.research.google.com/github/fralfaro/DS-Cheat-Sheets/blob/main/docs/examples/scikit-learn/sklearn.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>  |
 | polars       | <a href="https://github.com/fralfaro/DS-Cheat-Sheets/blob/main/docs/files/polars_cs.pdf" target="_parent"><img src="https://img.shields.io/badge/Open in PDF-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white"/></a>       | <a href="https://ds-cheat-sheets-polars.streamlit.app/" target="_parent"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/></a>     | <a href="https://colab.research.google.com/github/fralfaro/DS-Cheat-Sheets/blob/main/docs/examples/polars/polars.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>         |
 
-### R
+### 📘 R
 
 | Topic   | PDF                                                                                                                                                                                                                             | Streamlit                                                                                                                                                     | Google Colab                                                                                                                                                                                                                             |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ require any setup or installation.
 
 <img src="docs/images/demo_03.gif"  >
 
-## References
+## 📖 References
 
 * [Data Science Cheat Sheets - DataCamp](https://www.datacamp.com/cheat-sheet)
 * [Cheatsheets and Handouts - Matplotlib](https://matplotlib.org/cheatsheets/)

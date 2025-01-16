@@ -1,4 +1,7 @@
 import streamlit as st
+import base64
+
+import streamlit.components.v1 as components
 
 # Page configuration
 st.set_page_config(
@@ -25,19 +28,16 @@ st.markdown(
 )
 st.markdown(
     """
-Welcome to the ultimate repository of **Data Science Cheat Sheets**, carefully crafted for Python and R enthusiasts.  
-Whether you're a beginner or an expert, these cheat sheets provide a **multi-dimensional learning experience** in three flexible formats:
+Welcome to the **Ultimate Data Science Cheat Sheet Repository**, thoughtfully designed for Python and R enthusiasts.  
+Whether you're just starting out or are an experienced professional, these cheat sheets offer a **comprehensive and flexible learning experience** in three convenient formats:
+
+- 🚀 **Streamlit**: Interactive and user-friendly.
+- 📄 **PDF**: Downloadable and easy to reference.
+- 💻 **Google Colab**: Ready-to-run for hands-on learning.
 """
 )
 
-# Cheat Sheet Formats
-st.markdown(
-    """
-| **PDF** | **Streamlit** | **Google Colab** |
-|---------|---------------|------------------|
-| ![Open in PDF](https://img.shields.io/badge/Open%20in%20PDF-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white) | ![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg) | ![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg) |
-"""
-)
+
 
 
 
@@ -151,6 +151,7 @@ st.markdown(
 > 🔑 **Note**: The PDF cheat sheets in this repository are created by various contributors and have inspired the content presented here.
 """
 )
+
 
 
 css = '''

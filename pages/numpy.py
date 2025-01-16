@@ -78,7 +78,7 @@ object, and tools for working with these arrays.</small>
 
 
 # Define the cs_body() function
-def cs_body():
+def st_body():
     """
     Create content sections for the main body of the Streamlit cheat sheet with NumPy examples.
     """
@@ -386,6 +386,70 @@ def cs_body():
     hsplit_array = np.hsplit(a, 3)
     vsplit_array = np.vsplit(c, 2)
         ''')
+
+def st_pdf():
+    # HTML para incrustar el iframe
+    iframe_html = """
+    <iframe src="https://www.slideshare.net/slideshow/embed_code/key/CFh78MjOifqnhE?hostedIn=slideshare&page=upload" 
+            width="700" 
+            height="500" 
+            frameborder="0" 
+            marginwidth="0" 
+            marginheight="0" 
+            scrolling="no" 
+            style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" 
+            allowfullscreen>
+    </iframe>
+    """
+
+    # Usar st.components para mostrar el HTML
+    st.components.v1.html(iframe_html, height=500)
+
+
+def st_markdown():
+    # Ruta al archivo .md
+    md_file_path = "docs/examples/numpy/numpy.md"
+
+    # Leer el contenido del archivo .md
+    with open(md_file_path, "r", encoding="utf-8") as file:
+        md_content = file.read()
+
+    # Mostrar el contenido Markdown
+    st.markdown(md_content, unsafe_allow_html=True)
+
+
+
+# Define the cs_body() function
+def cs_body():
+    """
+    Create content sections for the main body of the Streamlit cheat sheet with Python examples.
+    """
+    
+    tab1, tab2, tab3 = st.tabs(["🚀 streamlit", "📄 pdf", "💻 notebook"])
+
+    with tab1:
+        st_body()
+    with tab2:
+        st_pdf()
+    with tab3:
+        st_markdown()
+
+css = '''
+    <style>
+        /* Ajusta el tamaño del texto en las pestañas (Tabs) */
+        .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
+            font-size: 1.5rem; /* Tamaño del texto en las pestañas */
+        }
+
+        /* Opción adicional: Ajusta el tamaño de los encabezados dentro de los expanders */
+        .st-expander h1, .st-expander h2, .st-expander h3 {
+            font-size: 4rem; /* Tamaño de los encabezados dentro de los expanders */
+        }
+    </style>
+    '''
+
+st.markdown(css, unsafe_allow_html=True)
+
 
 # Run the main function if the script is executed directly
 if __name__ == '__main__':

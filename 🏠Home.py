@@ -98,7 +98,7 @@ with tab1:
             "Scikit-learn is an open-source Python library that offers a unified interface for machine learning algorithms."
         )
         if st.button("Learn Scikit-Learn", key="sklearn"):
-            st.write("🔗 [Go to Scikit-Learn Cheat Sheet](./sklearn)")
+            st.write("🔗 [Go to Scikit-Learn Cheat Sheet](./scikit-learn)")
 
     with col7:
         st.image("docs/images/polars.png", width=120)

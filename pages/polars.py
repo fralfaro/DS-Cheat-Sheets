@@ -6,9 +6,12 @@ import requests
 # Initial page config
 st.set_page_config(
     page_title='Polars Cheat Sheet',
+    page_icon="📗",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+st.markdown("# 📗 Polars Cheat Sheet")
 
 def main():
     """

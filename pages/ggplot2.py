@@ -3,13 +3,15 @@ from pathlib import Path
 import base64
 import requests
 
-
 # Initial page config
 st.set_page_config(
-    page_title='Ggplot2 Cheat Sheet',
+    page_title='ggplot2 Cheat Sheet',
+    page_icon="📘",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+st.markdown("# 📘 ggplot2 Cheat Sheet")
 
 def main():
     """
@@ -35,7 +37,7 @@ def cs_sidebar():
         '''[<img src='data:image/png;base64,{}' class='img-fluid' width=95 >](https://streamlit.io/)'''.format(
             img_to_bytes("https://rstudio.github.io/cheatsheets/html/images/logo-ggplot2.png")), unsafe_allow_html=True)
 
-    st.sidebar.header('Ggplot2 Cheat Sheet')
+    st.sidebar.header('ggplot2 Cheat Sheet')
     st.sidebar.markdown('''
 <small>[ggplot2](https://ggplot2.tidyverse.org/) is based on the **grammar of graphics**, the idea that you can build every graph from the same components: a **data** set, a **coordinate system**, and **geoms**—visual marks that represent data points.</small>
     ''', unsafe_allow_html=True)

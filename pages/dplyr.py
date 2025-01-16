@@ -7,9 +7,12 @@ import requests
 # Initial page config
 st.set_page_config(
     page_title='Dplyr Cheat Sheet',
+    page_icon="📘",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+st.markdown("# 📘 Dplyr Cheat Sheet")
 
 def main():
     """

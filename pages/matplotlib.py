@@ -3,13 +3,15 @@ from pathlib import Path
 import base64
 import requests
 
-
 # Initial page config
 st.set_page_config(
     page_title='Matplotlib Cheat Sheet',
+    page_icon="📗",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+st.markdown("# 📗 Matplotlib Cheat Sheet")
 
 def main():
     """
